@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppBindingCommands.Views.UsuarioView"
+             Title="UsuarioView">
+    <VerticalStackLayout>
+
+        <Entry Text="{Binding Name}" Placeholder="Digite seu nome"/>
+        <Label 
+            Text="{Binding DisplayName}" />
+
+        <Label 
+            Text="{Binding DisplayMessage}"/>
+
+        <Button
+            Command="{Binding ShowMessageCommand}"
+            Text="Mensagem"/>
+
+        <Button
+            Command="{Binding CountCommand}"
+            Text="Contar Caracteres"/>
+
+        <Button
+            Command="{Binding CleanCommand}"
+            Text="Limpar Dados"/>
+
+        <Button
+          Command="{Binding OptionCommand}"
+          Text="Exibir Opções"/>
+
+    </VerticalStackLayout>
+</ContentPage>

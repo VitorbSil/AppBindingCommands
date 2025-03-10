@@ -1,0 +1,1 @@
+C:\Users\marco\OneDrive\Área de Trabalho\AppBindingCommand\AppBindingCommands\AppBindingCommands.csproj;x64
